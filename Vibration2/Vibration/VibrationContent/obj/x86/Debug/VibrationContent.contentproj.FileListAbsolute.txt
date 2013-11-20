@@ -1,0 +1,2 @@
+C:\Users\shanageek\Documents\Ongoin Projects\Vibration\Vibration\VibrationContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\shanageek\Documents\Ongoin Projects\Vibration2\Vibration\VibrationContent\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vibration", "Vibration\Vibration\Vibration.csproj", "{6F3C33B9-A5D7-442C-9356-75B2BE7DA085}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "VibrationContent", "Vibration\VibrationContent\VibrationContent.contentproj", "{3427F055-D526-43AA-94C2-D76EE89769BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F3C33B9-A5D7-442C-9356-75B2BE7DA085}.Debug|x86.ActiveCfg = Debug|x86
+		{6F3C33B9-A5D7-442C-9356-75B2BE7DA085}.Debug|x86.Build.0 = Debug|x86
+		{6F3C33B9-A5D7-442C-9356-75B2BE7DA085}.Release|x86.ActiveCfg = Release|x86
+		{6F3C33B9-A5D7-442C-9356-75B2BE7DA085}.Release|x86.Build.0 = Release|x86
+		{3427F055-D526-43AA-94C2-D76EE89769BE}.Debug|x86.ActiveCfg = Debug|x86
+		{3427F055-D526-43AA-94C2-D76EE89769BE}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
