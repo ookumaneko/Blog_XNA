@@ -29,16 +29,13 @@ namespace ThreadTest
 
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             TextureManager.Initialize(this);
             TextureManager.LoadTexture("title");
-            int lol = 10;
         }
 
         protected override void UnloadContent()
         {
-            // TODO: Unload any non ContentManager content here
         }
 
         protected override void Update(GameTime gameTime)

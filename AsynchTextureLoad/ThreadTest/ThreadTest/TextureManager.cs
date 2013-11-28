@@ -29,16 +29,16 @@ namespace ThreadTest
         {
             if (textureName != null && !m_textures.ContainsKey(textureName))
             {
-                // setup thread content
+                // スレッドの処理する中身を設定
                 ThreadStart threadStarter = delegate
                 {
-                    // action in the thread
+                    // ..ココにスレッド内の処理を実装
                     Texture2D texture = m_content.Load<Texture2D>(textureName);
                     m_textures.Add(textureName, texture);
                     m_texturesLoaded++;
                 };
 
-                // creat and start the thread
+                // スレッドを作り、動かす
                 Thread loadingThread = new Thread(threadStarter);
                 loadingThread.Start();
             }
