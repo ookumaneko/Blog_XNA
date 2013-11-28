@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Save", "Save\Save\Save.csproj", "{1823B492-9C7B-46A5-80F2-150B1A15799F}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "SaveContent", "Save\SaveContent\SaveContent.contentproj", "{A76A9F8C-60EB-413C-A1BD-C3193071E9F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1823B492-9C7B-46A5-80F2-150B1A15799F}.Debug|x86.ActiveCfg = Debug|x86
+		{1823B492-9C7B-46A5-80F2-150B1A15799F}.Debug|x86.Build.0 = Debug|x86
+		{1823B492-9C7B-46A5-80F2-150B1A15799F}.Release|x86.ActiveCfg = Release|x86
+		{1823B492-9C7B-46A5-80F2-150B1A15799F}.Release|x86.Build.0 = Release|x86
+		{A76A9F8C-60EB-413C-A1BD-C3193071E9F0}.Debug|x86.ActiveCfg = Debug|x86
+		{A76A9F8C-60EB-413C-A1BD-C3193071E9F0}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
